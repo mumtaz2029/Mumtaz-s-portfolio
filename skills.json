@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Microsoft Azure",
+    "icon": "https://img.icons8.com/color/48/azure-1.png"
+  },
+  {
+    "name": "AWS",
+    "icon": "https://img.icons8.com/color/48/amazon-web-services.png"
+  },
+  {
+    "name": "Docker",
+    "icon": "https://img.icons8.com/color/48/docker.png"
+  },
+  {
+    "name": "Kubernetes",
+    "icon": "https://img.icons8.com/color/48/kubernetes.png"
+  },
+  {
+    "name": "CI/CD",
+    "icon": "https://img.icons8.com/color/48/continuous-integration.png"
+  },
+  {
+    "name": "Linux",
+    "icon": "https://img.icons8.com/color/48/linux.png"
+  },
+  {
+    "name": "Windows",
+    "icon": "https://img.icons8.com/color/48/windows-10.png"
+  },
+  {
+    "name": "Git",
+    "icon": "https://img.icons8.com/color/48/git.png"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/ios-glyphs/48/github.png"
+  },
+  {
+    "name": "HTML",
+    "icon": "https://img.icons8.com/color/48/html-5--v1.png"
+  },
+  {
+    "name": "Troubleshooting",
+    "icon": "https://img.icons8.com/color/48/maintenance.png"
+  },
+  {
+    "name": "Automation Mindset",
+    "icon": "https://img.icons8.com/color/48/workflow.png"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "CI/CD Pipeline for Java Application",
+    "desc": "Designed and implemented a CI/CD pipeline to automate the build and deployment process of a Java web application. Stack: GitHub, Jenkins, Docker, Maven, Java, Linux.",
+    "image": "/assets/images/profile/mumtaz-avatar.jpeg",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mumtaz2029/project-1.git"
+      }
+    ]
+  },
+  {
+    "name": "Dockerized Web Application Deployment",
+    "desc": "Containerized a web application with Docker to ensure consistent deployment across environments. Stack: Docker, Linux, Java, HTML, CSS, Git.",
+    "image": "/assets/images/contact1.png",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mumtaz2029/project-2.git"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Infrastructure Deployment on Azure",
+    "desc": "Provisioned and configured cloud infrastructure using Microsoft Azure services for scalable application deployment. Stack: Microsoft Azure, Virtual Machines, Linux, Git, Networking, Cloud Infrastructure.",
+    "image": "/assets/images/contact.png",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mumtaz2029/project-3.git"
+      }
+    ]
+  }
+]
