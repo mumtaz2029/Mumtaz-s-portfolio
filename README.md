@@ -141,6 +141,20 @@ The project includes automated CI/CD pipelines for continuous integration and de
 - **Staging:** Automated deployment from feature branches
 - **Production:** Manual approval required for main branch deployments
 
+## Deployment Demo
+
+Watch the step-by-step deployment process of this portfolio project:
+
+[![Portfolio Deployment Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+*Replace `YOUR_VIDEO_ID` with the actual YouTube video ID of your deployment demonstration.*
+
+This video covers:
+- Maven build process
+- Tomcat deployment
+- CI/CD pipeline execution
+- Troubleshooting common issues
+
 ## Recent Updates
 
 - **Maven Migration:** Converted static website to Maven project structure for better build management
