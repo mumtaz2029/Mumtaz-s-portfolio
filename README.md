@@ -145,7 +145,11 @@ The project includes automated CI/CD pipelines for continuous integration and de
 
 Watch the step-by-step deployment process of this portfolio project:
 
-[![Portfolio Deployment Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+
+https://github.com/user-attachments/assets/66d5d3cc-da1b-4e8b-9ce8-6e1d91e31f3f
+
+
 
 *Replace `YOUR_VIDEO_ID` with the actual YouTube video ID of your deployment demonstration.*
 
