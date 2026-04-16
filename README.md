@@ -143,7 +143,7 @@ The project includes automated CI/CD pipelines for continuous integration and de
 
 ## Deployment Demo
 
-Watch the deployed portfolio project:
+Watch the portfolio project deployed on Ec2 Instance:
 
 
 
