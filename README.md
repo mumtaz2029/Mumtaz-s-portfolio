@@ -1,6 +1,6 @@
 # Mumtaz Jahan Portfolio
 
-Personal portfolio website for Mumtaz Jahan, focused on DevOps, cloud, automation, and project-based learning.
+Personal portfolio website for Mumtaz Jahan, focused on DevOps, cloud, automation, reliability, and project-based learning.
 
 ## Live Website
 
@@ -10,15 +10,68 @@ Personal portfolio website for Mumtaz Jahan, focused on DevOps, cloud, automatio
 
 This portfolio highlights:
 
-- DevOps and cloud-focused profile
-- Skills across Azure, AWS, Docker, Kubernetes, Linux, Git, and CI/CD
-- Education details
-- Real project highlights
-- Experience and contact information
+- a DevOps and cloud-focused profile
+- skills across Azure, AWS, Docker, Kubernetes, Jenkins, Maven, Tomcat, Terraform, Ansible, Prometheus, Grafana, Nexus, SonarQube, Linux, Git, and CI/CD
+- education details
+- real project highlights
+- experience and contact information
+- achievements and published works
+
+## Featured Sections
+
+### About Me
+
+Introduces Mumtaz Jahan as an aspiring DevOps Engineer building reliable, automated cloud systems.
+
+### Skills and Tools
+
+The portfolio includes tools and platforms such as:
+
+- Microsoft Azure
+- AWS
+- Docker
+- Kubernetes
+- Jenkins
+- Maven
+- Tomcat
+- Terraform
+- Ansible
+- Prometheus
+- Grafana
+- Nexus
+- SonarQube
+- Linux
+- Git
+- GitHub
+
+### Education
+
+- Master of Computer Applications (MCA), Shadan Institute of Computer Studies for Girls
+- BSc in Mathematics, Statistics, and Computer Science, Osmania University
+
+### Experience
+
+- Senior Process Executive - Voice at Cognizant
+- cloud and DevOps transition journey focused on hands-on learning
+
+### Achievements
+
+- Microsoft Certified: Azure Administrator Associate (AZ-104)
+
+### Other Works
+
+- [Running Hyderabad](https://a.co/d/0evbvQ28)
+- [When to opt silence: The Art of Knowing When to Speak and When to Hold Back](https://amzn.in/d/06qTbhs3)
 
 ## Featured Projects
 
-### 1. CI/CD Pipeline for Java Application
+### 1. DevOps Learning Hub
+
+A DevOps learning portal focused on core topics, interview preparation, hands-on labs, and project-based learning. It highlights Jenkins freestyle automation, Maven builds, Tomcat 9 deployment, and AWS S3 artifact storage.
+
+GitHub: [DevOps-Learning-Hub-](https://github.com/mumtaz2029/DevOps-Learning-Hub-.git)
+
+### 2. CI/CD Pipeline for Java Application
 
 Designed and implemented a CI/CD pipeline to automate the build and deployment process of a Java web application.
 
@@ -33,7 +86,7 @@ Tech used:
 
 GitHub: [project-1](https://github.com/mumtaz2029/project-1.git)
 
-### 2. Dockerized Web Application Deployment
+### 3. Dockerized Web Application Deployment
 
 Containerized a web application using Docker to ensure consistent deployment across environments.
 
@@ -47,7 +100,7 @@ Tech used:
 
 GitHub: [project-2](https://github.com/mumtaz2029/project-2.git)
 
-### 3. Cloud Infrastructure Deployment on Azure
+### 4. Cloud Infrastructure Deployment on Azure
 
 Provisioned and configured cloud infrastructure using Microsoft Azure services for scalable application deployment.
 
@@ -71,75 +124,44 @@ GitHub: [project-3](https://github.com/mumtaz2029/project-3.git)
 - Particle.js
 - Typed.js
 - ScrollReveal
-- Maven (Build Tool)
-- Apache Tomcat (Deployment Server)
+- Vanilla Tilt
 
 ## Project Structure
 
-This project has been converted to a Maven-based structure for better build management and deployment:
+This repository is now a static site structure suitable for Netlify deployment:
 
-```
-portfolio-website/
-├── pom.xml                          # Maven configuration
-├── src/
-│   └── main/
-│       └── webapp/                  # Web application root
-│           ├── index.html           # Main portfolio page
-│           ├── 404.html             # Error page
-│           ├── skills.json          # Skills data
-│           ├── assets/              # Static assets (CSS, JS, Images)
-│           ├── experience/          # Experience section
-│           └── projects/            # Projects section
-├── target/                          # Build output (generated)
-└── README.md
+```text
+Portfolio-Website-main/
+  index.html
+  404.html
+  skills.json
+  assets/
+    css/
+    js/
+    images/
+  experience/
+  projects/
+  README.md
 ```
 
-## Build and Deployment
+## Local Development
 
-### Local Development
+Open the project directly in a browser or serve it locally with any static server.
 
-1. **Prerequisites:**
-   - Java 21 or higher
-   - Maven 3.6+
-   - Apache Tomcat 9+
+Example:
 
-2. **Build the project:**
-   ```bash
-   mvn clean package
-   ```
+```bash
+npx serve .
+```
 
-3. **Deploy to Tomcat:**
-   - Copy `target/portfolio-website.war` to Tomcat's `webapps/` directory
-   - Access at: `http://localhost:8080/portfolio-website/`
+## Netlify Deployment
 
-### CI/CD Pipeline
+This portfolio is intended to be deployed as a static frontend site on Netlify.
 
-The project includes automated CI/CD pipelines for continuous integration and deployment:
-
-#### GitHub Actions (Recommended)
-
-- **Build Pipeline:** Automatically builds and tests on every push to main branch
-- **Artifact Generation:** Creates deployable WAR file
-- **Quality Gates:** Runs static analysis and security scans
-
-#### Jenkins Pipeline
-
-- **Automated Deployment:** Deploys to staging/production Tomcat servers
-- **Environment Management:** Supports multiple deployment environments
-- **Rollback Capability:** Quick rollback to previous versions
-
-#### Pipeline Features
-
-- **Maven Build:** Compiles and packages the web application
-- **Tomcat Deployment:** Automated deployment to Tomcat servers
-- **Health Checks:** Post-deployment verification
-- **Notifications:** Slack/email notifications on build status
-
-### Deployment Environments
-
-- **Development:** Local Tomcat instance
-- **Staging:** Automated deployment from feature branches
-- **Production:** Manual approval required for main branch deployments
+- publish directory: repository root
+- no Java runtime required
+- no Tomcat runtime required
+- no WAR deployment required
 
 ## Deployment Demo
 
@@ -156,26 +178,15 @@ https://github.com/user-attachments/assets/66d5d3cc-da1b-4e8b-9ce8-6e1d91e31f3f
 
 ## Recent Updates
 
-- **Maven Migration:** Converted static website to Maven project structure for better build management
-- **CI/CD Integration:** Implemented automated pipelines for continuous deployment
-- **Tomcat Deployment:** Added support for enterprise-grade web server deployment
-- **WAR Packaging:** Optimized for containerized and traditional server deployments
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run `mvn clean package` to test
-5. Submit a pull request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+- converted back to a clean static-site layout for Netlify deployment
+- added achievements section with AZ-104 certification
+- added others section for published books
+- updated project ordering to place DevOps Learning Hub first
+- expanded the skills section with DevOps tooling such as Terraform, Ansible, Prometheus, Grafana, Jenkins, Nexus, SonarQube, Maven, and Tomcat
 
 ## Contact
 
 - Email: [mumtazjahan2029@gmail.com](mailto:mumtazjahan2029@gmail.com)
 - GitHub: [mumtaz2029](https://github.com/mumtaz2029)
-- LinkedIn: [momtaz-j-1669031b1](https://www.linkedin.com/in/momtaz-j-1669031b1)
+- LinkedIn: [momtaz-j-1669031b1](https://www.linkedin.com/in/mumtaz-j-1669031b1)
 - YouTube: [MJ Tech](https://www.youtube.com/@MJtech1916)
