@@ -154,7 +154,6 @@ https://github.com/user-attachments/assets/66d5d3cc-da1b-4e8b-9ce8-6e1d91e31f3f
 
 
 
-
 ## Recent Updates
 
 - **Maven Migration:** Converted static website to Maven project structure for better build management
@@ -178,5 +177,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Email: [mumtazjahan2029@gmail.com](mailto:mumtazjahan2029@gmail.com)
 - GitHub: [mumtaz2029](https://github.com/mumtaz2029)
-- LinkedIn: [momtaz-j-1669031b1](https://www.linkedin.com/in/mumtaz-j-1669031b1)
+- LinkedIn: [momtaz-j-1669031b1](https://www.linkedin.com/in/momtaz-j-1669031b1)
 - YouTube: [MJ Tech](https://www.youtube.com/@MJtech1916)
