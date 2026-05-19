@@ -58,6 +58,8 @@ The portfolio includes tools and platforms such as:
 
 - Microsoft Certified: Azure Administrator Associate (AZ-104), renewed on 13 May 2026
 - Verification link: [View Microsoft credential](https://learn.microsoft.com/api/credentials/share/en-us/mumtazjahan-2198/EA49273006B43DFD?sharingId=CB93C3C395B1127C)
+- Paperlive Learning DevOps and AWS Course Completion Certificate, March 2026
+- Certificate file: `assets/docs/paperlive-devops-aws-certificate.pdf`
 
 ### Other Works
 
@@ -181,6 +183,7 @@ https://github.com/user-attachments/assets/66d5d3cc-da1b-4e8b-9ce8-6e1d91e31f3f
 
 - converted back to a clean static-site layout for Netlify deployment
 - updated achievements section with renewed AZ-104 certification and verification link
+- added Paperlive Learning DevOps and AWS course completion certificate
 - added others section for published books
 - updated project ordering to place DevOps Learning Hub first
 - expanded the skills section with DevOps tooling such as Terraform, Ansible, Prometheus, Grafana, Jenkins, Nexus, SonarQube, Maven, and Tomcat
