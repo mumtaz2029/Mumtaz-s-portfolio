@@ -1103,6 +1103,25 @@ header .navbar ul li a:hover {
   display: inline-flex;
   align-items: center;
   gap: 0.8rem;
+  padding: 1.3rem 2.2rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ff8ab8, #ffd369);
+  color: #2a173f;
+  font-size: 1.5rem;
+  font-weight: 800;
+  box-shadow: 0 14px 28px rgba(255, 138, 184, 0.24);
+}
+.other-links .btn span,
+.other-links .btn i {
+  color: #2a173f;
+}
+.other-links .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 34px rgba(255, 138, 184, 0.3);
+}
+.other-links .btn:hover span,
+.other-links .btn:hover i {
+  color: #2a173f;
 }
 /* others section ends */
 
