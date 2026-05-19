@@ -56,7 +56,8 @@ The portfolio includes tools and platforms such as:
 
 ### Achievements
 
-- Microsoft Certified: Azure Administrator Associate (AZ-104)
+- Microsoft Certified: Azure Administrator Associate (AZ-104), renewed on 13 May 2026
+- Verification link: [View Microsoft credential](https://learn.microsoft.com/api/credentials/share/en-us/mumtazjahan-2198/EA49273006B43DFD?sharingId=CB93C3C395B1127C)
 
 ### Other Works
 
@@ -179,7 +180,7 @@ https://github.com/user-attachments/assets/66d5d3cc-da1b-4e8b-9ce8-6e1d91e31f3f
 ## Recent Updates
 
 - converted back to a clean static-site layout for Netlify deployment
-- added achievements section with AZ-104 certification
+- updated achievements section with renewed AZ-104 certification and verification link
 - added others section for published books
 - updated project ordering to place DevOps Learning Hub first
 - expanded the skills section with DevOps tooling such as Terraform, Ansible, Prometheus, Grafana, Jenkins, Nexus, SonarQube, Maven, and Tomcat

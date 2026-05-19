@@ -1045,6 +1045,14 @@ header .navbar ul li a:hover {
 .achievement-meta span i {
   margin-right: 0.6rem;
 }
+.achievement-links {
+  margin-top: 2rem;
+}
+.achievement-links .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+}
 /* achievements section ends */
 
 /* others section starts */
