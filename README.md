@@ -58,7 +58,7 @@ The portfolio includes tools and platforms such as:
 
 - Microsoft Certified: Azure Administrator Associate (AZ-104), renewed on 13 May 2026
 - Verification link: [View Microsoft credential](https://learn.microsoft.com/api/credentials/share/en-us/mumtazjahan-2198/EA49273006B43DFD?sharingId=CB93C3C395B1127C)
-- Paperlive Learning DevOps and AWS Course Completion Certificate, March 2026
+- Paperlive Learning DevOps and AWS Course Completion Certificate, May 2026
 - Certificate file: `assets/docs/paperlive-devops-aws-certificate.pdf`
 
 ### Other Works
